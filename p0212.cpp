@@ -5,7 +5,8 @@ struct pos {
 };
 
 pos a = {0, 0}, b, ma;
-int map[N][N], ans[N][N];
+int map[N][N];
+unsigned long long ans[N][N];
 int xma[9] = {0, -1, 1, 2, 2, 1, -1, -2, -2};
 int yma[9] = {0, -2, -2, -1, 1, 2, 2, 1, -1};
 
@@ -28,12 +29,12 @@ int main() {
             } else if (!j && i) {
                 ans[i][j] = ans[i - 1][j];
             } else if (!i && !j) {
-                ans[i][j] = 1;
+                ans[i][j] = 1ull;
             } else {
                 ans[i][j] = ans[i - 1][j] + ans[i][j - 1];
             }
         }
     }
-    printf("%d\n", ans[b.x][b.y]);
+    printf("%llu\n", ans[b.x][b.y]);
     return 0;
 }
