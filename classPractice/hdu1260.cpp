@@ -3,6 +3,9 @@
 using namespace std;
 #define N 2010
 int n, k, t[N], r[N], dp[N];
+// dp[i]表示前i个人排队买票的最优时长
+// t[i]表示第i个人只买自己票的用时
+// r[i]表示第i个人和后面人一起买票的用时
 
 int main() {
     // freopen("../test.in", "r", stdin);
