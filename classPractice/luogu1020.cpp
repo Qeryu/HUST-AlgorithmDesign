@@ -22,6 +22,7 @@ int main() {
             dpup[p] = a[i];
         }
 
+        // 由DilWorth定理可以确定，覆盖全序列需要的不上升子序列的数量等于最大上升子序列长度
         if (dpdown[ans2 - 1] < a[i]) {
             dpdown[ans2++] = a[i];
         } else {
