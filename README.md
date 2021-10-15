@@ -64,7 +64,7 @@
 
 ## 例题7：数字三角形
 
-练习题：[oj | 数字三角形](http://10.12.162.1:5880/contest/22/problem/P0200)、[P1216 [USACO1.5\][IOI1994]数字三角形 Number Triangles - 洛谷](https://www.luogu.com.cn/problem/P1216)
+练习题：[oj | 数字三角形](http://10.12.162.1:5880/contest/22/problem/P0200)、[P1216 [USACO1.5][IOI1994]数字三角形 Number Triangles - 洛谷](https://www.luogu.com.cn/problem/P1216)
 
 参考代码：[HUST-AlgorithmDesign/p0200.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0200.cpp)
 
@@ -80,21 +80,89 @@
 
 这份代码将LCS问题转换为LIS问题，通过$O(nlogn)$的时间复杂度进行求解
 
-## 例题9：01背包问题
-
 ## 拓展1：装箱问题
+
+日常作业题：[oj | 装箱问题](http://10.12.162.1:5880/contest/22/problem/P0216)
+
+练习题：[P1049 [NOIP2001 普及组] 装箱问题 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1049)
+
+参考代码1：[HUST-AlgorithmDesign/p0216.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0216.cpp)
+
+这份代码就是简单的01背包，把剩余空间转换为价值
+
+参考代码2：[HUST-AlgorithmDesign/p0216_1.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0216_1.cpp)
+
+这份代码是在1的基础上做了空间复杂度的优化
 
 ## 拓展2：采药
 
+和上一题一模一样，更加标准的模板题，直接上优化后的代码
+
+练习题：[P1048 [NOIP2005 普及组] 采药 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1048)
+
+参考代码：[HUST-AlgorithmDesign/luogu1048.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1048.cpp)
+
 ## 拓展3：开心的金明
+
+和上一题基本一致，状态转移方程微调
+
+日常作业题：[oj | 开心的金明](http://10.12.162.1:5880/contest/22/problem/P0217)
+
+练习题：[P1060 [NOIP2006 普及组] 开心的金明 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1060)
+
+参考代码：[HUST-AlgorithmDesign/p0217.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0217.cpp)
 
 ## 例题10：完全背包
 
+练习题：[P1616 疯狂的采药 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1616)
+
+参考代码1：[HUST-AlgorithmDesign/luogu1616.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616.cpp)
+
+这份代码是根据老师的思路，把无穷数量的物品转化为在给定容积下的有限数量，但是显然时间复杂度可能在特制的数据下爆炸（而且还忘了开longlong
+
+参考代码2：[HUST-AlgorithmDesign/luogu1616_1.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616_1.cpp)
+
+这份是按照完全背包模板写的代码，是在01背包基础上调整内层循环的顺序
+
+**为什么这样一改就行呢？**
+
+01背包问题中按V...0来循环，是为了保证在选第i件物品时，依据的是还未考虑第i件物品的子结果f\[i-1][v-c[i]]。
+
+而现在完全背包是每种物品可选无限件，在考虑第i种物品时，可以从考虑了第i件物品的子结果进行转移，所以循环调整为0...V正好可以满足条件
+
+参考代码3：[HUST-AlgorithmDesign/luogu1616_2.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616_2.cpp)
+
+其实还是可以对参考代码1进行一些些优化的，比如转化为有限容量的时候用二进制形式的思想进行转换，比如上限是可以塞10件，可以通过放1个8件包、1个2件包来实现，不需要枚举所有10种情况，大大减少复杂度
+
 ## 例题11：多重背包
+
+日常作业题：[oj | 宝物筛选](http://10.12.162.1:5880/contest/22/problem/P0220)
+
+练习题：[P1776 宝物筛选 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1776)
+
+参考代码：[HUST-AlgorithmDesign/p0220.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0220.cpp)
+
+需要注意，多重背包的二进制拆分和完全背包的二进制拆分还有些不同，具体见代码
 
 ## 例题12：混合背包
 
+日常作业题：[oj | 2021年算法设计与分析](http://10.12.162.1:5880/contest/22/problem/P0221)
+
+练习题：[P1833 樱花 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1833)
+
+参考代码：[HUST-AlgorithmDesign/p0221.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0221.cpp)
+
+实际上就是分情况讨论使用前面的多重背包和完全背包，01背包是多重背包的一种特殊情况
+
 ## 例题13：分组背包
+
+日常练习题：[oj | 通天之分组背包](http://10.12.162.1:5880/contest/22/problem/P0219)
+
+练习题：[P1757 通天之分组背包 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1757)
+
+参考代码：[HUST-AlgorithmDesign/p0219.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0219.cpp)
+
+思想比较朴素，所有组在做01背包，每个组可以选择添加一个物品到包里也可以选择不添加，至于组内如何选择，则需要每次在组内选择的时候对一个dp[j]使用所有的组内物品进行1次更新。
 
 ## 例题14：有依赖的背包
 
