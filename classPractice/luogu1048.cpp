@@ -5,7 +5,7 @@ const int T = 1e3 + 7;
 int dp[T], t, m, ct, cv;
 
 int main() {
-    freopen("../test.in", "r", stdin);
+    // freopen("../test.in", "r", stdin);
     scanf("%d%d", &t, &m);
     for (int i = 1; i <= m; ++i) {
         scanf("%d%d", &ct, &cv);
