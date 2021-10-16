@@ -58,11 +58,15 @@
 
 学院OJ上数据太弱，没有出现方案数超出int的情况，实际上应该用long long
 
+日常作业题：[oj | 过河卒](http://10.12.162.1:5880/contest/22/problem/P0212)
+
 练习题：[P1002 NOIP2002 普及组 过河卒 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1002)
 
 参考代码：[HUST-AlgorithmDesign/p0212.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0212.cpp)
 
 ## 例题7：数字三角形
+
+日常作业题：[oj | 数字三角形](http://10.12.162.1:5880/contest/22/problem/P0200)
 
 练习题：[oj | 数字三角形](http://10.12.162.1:5880/contest/22/problem/P0200)、[P1216 [USACO1.5][IOI1994]数字三角形 Number Triangles - 洛谷](https://www.luogu.com.cn/problem/P1216)
 
@@ -166,4 +170,62 @@
 
 ## 例题14：有依赖的背包
 
+练习题：[P1064 [NOIP2006 提高组] 金明的预算方案 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1064)
+
+参考代码：
+
 ## 例题15：二维费用背包
+
+日常作业题：[oj | NASA的食物计划](http://10.12.162.1:5880/contest/22/problem/P0218)
+
+练习题：[P1507 NASA的食物计划 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1507)
+
+参考代码：
+
+# 动态规划 区间DP
+
+## 石子合并
+
+练习题：[P1880 [NOI1995] 石子合并 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1880)
+
+## 能量项链
+
+练习题：[P1063 [NOIP2006 提高组] 能量项链 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1063)
+
+## 凸多边形的三角剖分
+
+练习题：[1039. 多边形三角剖分的最低得分 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon/)
+
+## 多边形（IOI98）
+
+练习题：[1179 -- Polygon (poj.org)](http://poj.org/problem?id=1179)
+
+## 青蛙的烦恼
+
+没找到OJ上的题...
+
+## 棋盘分割
+
+练习题：[1191 -- 棋盘分割 (poj.org)](http://poj.org/problem?id=1191)
+
+# 动态规划总结
+
+## 打家劫舍
+
+练习题：[198. 打家劫舍 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/house-robber/)
+
+## 单词拆分
+
+练习题：[140. 单词拆分 II - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/word-break-ii/)
+
+## 压缩字符串
+
+练习题：[1531. 压缩字符串 II - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/string-compression-ii/)
+
+## 石子归并
+
+练习题：[282. 石子合并 - AcWing题库](https://www.acwing.com/problem/content/description/284/)
+
+## 目标和
+
+练习题：[494. 目标和 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/target-sum/)
