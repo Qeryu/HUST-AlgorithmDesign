@@ -6,13 +6,13 @@
 
 练习题：[oj | 超级楼梯](http://10.12.162.1:5880/contest/22/problem/P0203)
 
-参考代码：[HUST-AlgorithmDesign/p0203.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0203.cpp)
+参考代码：[HUST-AlgorithmDesign/p0203 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0203.cpp)
 
 ## 例题3：排队买票问题
 
 练习题：[Problem - 1260 (hdu.edu.cn)](http://acm.hdu.edu.cn/showproblem.php?pid=1260)
 
-参考代码：[HUST-AlgorithmDesign/hdu1260.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/hdu1260.cpp)
+参考代码：[HUST-AlgorithmDesign/hdu1260 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/hdu1260.cpp)
 
 ## 拓展1：导弹拦截
 
@@ -26,11 +26,11 @@
 
 练习题：[P1020 NOIP1999 普及组 导弹拦截 - 洛谷](https://www.luogu.com.cn/problem/P1020)
 
-参考代码1：[HUST-AlgorithmDesign/luogu1020.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1020.cpp)
+参考代码1：[HUST-AlgorithmDesign/luogu1020 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1020.cpp)
 
 这份代码利用DilWorth定理将第二个**求能够覆盖全序列的下降序列数量**转化为**求最长上升子序列的长度**
 
-参考代码2：[HUST-AlgorithmDesign/luogu1020_1.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1020_1.cpp)
+参考代码2：[HUST-AlgorithmDesign/luogu1020_1 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1020_1.cpp)
 
 使用贪心的思想处理第二个问题，每次新来一个导弹，就找一个当前高度最低且能拦截的系统来拦截
 
@@ -42,7 +42,7 @@
 
 练习题：[P1108 低价购买 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1108)
 
-参考代码：[HUST-AlgorithmDesign/p0211.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0211.cpp)
+参考代码：[HUST-AlgorithmDesign/p0211 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0211.cpp)
 
 ## 拓展3：合唱队形
 
@@ -50,7 +50,7 @@
 
 练习题：[P1091 NOIP2004 提高组 合唱队形 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1091)
 
-参考代码：[HUST-AlgorithmDesign/p0210.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0210.cpp)
+参考代码：[HUST-AlgorithmDesign/p0210 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0210.cpp)
 
 # 动态规划 2D
 
@@ -62,7 +62,7 @@
 
 练习题：[P1002 NOIP2002 普及组 过河卒 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1002)
 
-参考代码：[HUST-AlgorithmDesign/p0212.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0212.cpp)
+参考代码：[HUST-AlgorithmDesign/p0212 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0212.cpp)
 
 ## 例题7：数字三角形
 
@@ -70,17 +70,17 @@
 
 练习题：[oj | 数字三角形](http://10.12.162.1:5880/contest/22/problem/P0200)、[P1216 [USACO1.5][IOI1994]数字三角形 Number Triangles - 洛谷](https://www.luogu.com.cn/problem/P1216)
 
-参考代码：[HUST-AlgorithmDesign/p0200.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0200.cpp)
+参考代码：[HUST-AlgorithmDesign/p0200 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0200.cpp)
 
 ## 例题8：最长公共子序列LCS
 
 练习题：[P1439 【模板】最长公共子序列 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1439)
 
-参考代码1：[HUST-AlgorithmDesign/luogu1439.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1439.cpp)
+参考代码1：[HUST-AlgorithmDesign/luogu1439 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1439.cpp)
 
 这份代码是$O(n^2)$复杂度的，只能通过P1439的前50%个测试点，思路是照抄的课件，支持对LCS的输出
 
-参考代码2：[HUST-AlgorithmDesign/luogu1439_1.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1439_1.cpp)
+参考代码2：[HUST-AlgorithmDesign/luogu1439_1 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1439_1.cpp)
 
 这份代码将LCS问题转换为LIS问题，通过$O(nlogn)$的时间复杂度进行求解
 
@@ -90,11 +90,11 @@
 
 练习题：[P1049 [NOIP2001 普及组] 装箱问题 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1049)
 
-参考代码1：[HUST-AlgorithmDesign/p0216.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0216.cpp)
+参考代码1：[HUST-AlgorithmDesign/p0216 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0216.cpp)
 
 这份代码就是简单的01背包，把剩余空间转换为价值
 
-参考代码2：[HUST-AlgorithmDesign/p0216_1.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0216_1.cpp)
+参考代码2：[HUST-AlgorithmDesign/p0216_1 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0216_1.cpp)
 
 这份代码是在1的基础上做了空间复杂度的优化
 
@@ -104,7 +104,7 @@
 
 练习题：[P1048 [NOIP2005 普及组] 采药 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1048)
 
-参考代码：[HUST-AlgorithmDesign/luogu1048.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1048.cpp)
+参考代码：[HUST-AlgorithmDesign/luogu1048 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1048.cpp)
 
 ## 拓展3：开心的金明
 
@@ -114,17 +114,17 @@
 
 练习题：[P1060 [NOIP2006 普及组] 开心的金明 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1060)
 
-参考代码：[HUST-AlgorithmDesign/p0217.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0217.cpp)
+参考代码：[HUST-AlgorithmDesign/p0217 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0217.cpp)
 
 ## 例题10：完全背包
 
 练习题：[P1616 疯狂的采药 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1616)
 
-参考代码1：[HUST-AlgorithmDesign/luogu1616.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616.cpp)
+参考代码1：[HUST-AlgorithmDesign/luogu1616 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616.cpp)
 
 这份代码是根据老师的思路，把无穷数量的物品转化为在给定容积下的有限数量，但是显然时间复杂度可能在特制的数据下爆炸（而且还忘了开longlong
 
-参考代码2：[HUST-AlgorithmDesign/luogu1616_1.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616_1.cpp)
+参考代码2：[HUST-AlgorithmDesign/luogu1616_1 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616_1.cpp)
 
 这份是按照完全背包模板写的代码，是在01背包基础上调整内层循环的顺序
 
@@ -134,7 +134,7 @@
 
 而现在完全背包是每种物品可选无限件，在考虑第i种物品时，可以从考虑了第i件物品的子结果进行转移，所以循环调整为0...V正好可以满足条件
 
-参考代码3：[HUST-AlgorithmDesign/luogu1616_2.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616_2.cpp)
+参考代码3：[HUST-AlgorithmDesign/luogu1616_2 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/classPractice/luogu1616_2.cpp)
 
 其实还是可以对参考代码1进行一些些优化的，比如转化为有限容量的时候用二进制形式的思想进行转换，比如上限是可以塞10件，可以通过放1个8件包、1个2件包来实现，不需要枚举所有10种情况，大大减少复杂度
 
@@ -144,7 +144,7 @@
 
 练习题：[P1776 宝物筛选 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1776)
 
-参考代码：[HUST-AlgorithmDesign/p0220.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0220.cpp)
+参考代码：[HUST-AlgorithmDesign/p0220 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0220.cpp)
 
 需要注意，多重背包的二进制拆分和完全背包的二进制拆分还有些不同，具体见代码
 
@@ -154,7 +154,7 @@
 
 练习题：[P1833 樱花 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1833)
 
-参考代码：[HUST-AlgorithmDesign/p0221.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0221.cpp)
+参考代码：[HUST-AlgorithmDesign/p0221 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0221.cpp)
 
 实际上就是分情况讨论使用前面的多重背包和完全背包，01背包是多重背包的一种特殊情况
 
@@ -164,7 +164,7 @@
 
 练习题：[P1757 通天之分组背包 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1757)
 
-参考代码：[HUST-AlgorithmDesign/p0219.cpp at main · Qeryu/HUST-AlgorithmDesign (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0219.cpp)
+参考代码：[HUST-AlgorithmDesign/p0219 (github.com)](https://github.com/Qeryu/HUST-AlgorithmDesign/blob/main/p0219.cpp)
 
 思想比较朴素，所有组在做01背包，每个组可以选择添加一个物品到包里也可以选择不添加，至于组内如何选择，则需要每次在组内选择的时候对一个dp[j]使用所有的组内物品进行1次更新。
 
