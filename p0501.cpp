@@ -105,7 +105,7 @@ ll getSum(int l, int r, int s, int e, int p) {
 }
 
 int main() {
-    freopen("test.in", "r", stdin);
+    // freopen("test.in", "r", stdin);
     scanf("%d%d%lld", &n, &m, &mod);
     for (int i = 1; i <= n; ++i) {
         scanf("%lld", a + i);
