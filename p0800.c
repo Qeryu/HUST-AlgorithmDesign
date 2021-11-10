@@ -55,7 +55,6 @@ int cmpFunc(const void* a, const void* b) {
 }
 
 int main() {
-    // freopen("test.in", "r", stdin);
     scanf("%d", &n);
     for (int i = 0; i < n; ++i) scanf("%d", a + i);
     for (int i = 0; i < n; ++i) scanf("%d", b + i);
