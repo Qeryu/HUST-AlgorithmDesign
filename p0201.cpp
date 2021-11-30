@@ -4,7 +4,7 @@ int n;
 unsigned long long niu[N];
 
 int main() {
-    freopen("test.in", "r", stdin);
+    // freopen("test.in", "r", stdin);
     for (int i = 1; i < 55; ++i) {
         if (i < 4)
             niu[i] = i;
