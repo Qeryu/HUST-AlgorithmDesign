@@ -229,3 +229,5 @@
 ## 目标和
 
 练习题：[494. 目标和 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/target-sum/)
+
+：D
